@@ -5,3 +5,69 @@ body {
   color: white;
   font-family: "Poppins", sans-serif;
 }
+
+.card {
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+}
+
+.team-text {
+  width: 50%;
+}
+
+.term-text {
+  width: 50%;
+}
+.step-card {
+  background-color: #202336;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.step-card .icon {
+  font-size: 2em;
+  margin-bottom: 10px;
+}
+
+.one {
+  border-right: 1px solid #752766;
+  border-bottom: 1px solid #752766;
+}
+
+.two {
+  border-left: 1px solid #752766;
+  border-right: 1px solid #752766;
+  border-bottom: 1px solid #752766;
+}
+
+.three {
+  border-left: 1px solid #752766;
+  border-bottom: 1px solid #752766;
+}
+
+.four {
+  border-top: 1px solid #752766;
+  border-right: 1px solid #752766;
+}
+
+.five {
+  border-left: 1px solid #752766;
+  border-right: 1px solid #752766;
+  border-top: 1px solid #752766;
+}
+
+.six {
+  border-top: 1px solid #752766;
+}
+
+@media (min-width: 319px) and (max-width: 767px) {
+  .team-text {
+    width: 100%;
+  }
+
+  .term-text {
+    width: 100%;
+    margin-top: 50px;
+  }
+}
