@@ -79,7 +79,30 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+footer h5 {
+  color: #d11b8e;
+}
+.footer-bottom {
+  background-color: #b0177d;
+  color: white;
+  padding: 10px 0;
+}
+
+footer a {
+  color: #12132a;
+  text-decoration: none;
+}
+
+.footer .social-icons a {
+  margin-right: 10px;
+  color: white;
+}
 @media (min-width: 319px) and (max-width: 767px) {
+  .founders-corner img {
+    min-width: 300px;
+  }
+
   .team-text {
     width: 100%;
   }
