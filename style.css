@@ -98,9 +98,10 @@ footer a {
   margin-right: 10px;
   color: white;
 }
+
 @media (min-width: 319px) and (max-width: 767px) {
   .founders-corner img {
-    min-width: 300px;
+    min-width: 350px;
   }
 
   .team-text {
@@ -119,5 +120,11 @@ footer a {
 
   .header-img {
     width: 100%;
+  }
+
+  .footer-container {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    padding: 0px 20px;
   }
 }
